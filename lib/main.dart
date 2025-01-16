@@ -1,8 +1,8 @@
+import 'package:dti_sau_project/views/login_ui.dart';
 import 'package:dti_sau_project/views/welcome_ui.dart';
 import 'package:flutter/material.dart';
 
-
-void main(){
+void main() {
   runApp(
     //เรียกใฃ้งานคลาสที่เรียกใช้ widget หลักของแอป MaterialApp()
     DtiSau(),
@@ -22,7 +22,7 @@ class _DtiSauState extends State<DtiSau> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WelcomeUi(),
+      home: LoginUI(),
     );
   }
 }
